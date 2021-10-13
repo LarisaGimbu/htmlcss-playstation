@@ -17,8 +17,7 @@
   color: white;
 }
 .jumbo-container{
-  position: absolute;
-  bottom: 50px;
+  padding-top: 230px;
 }
 
 .first-jumbo{
