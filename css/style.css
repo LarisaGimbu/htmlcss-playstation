@@ -1,0 +1,12 @@
+/* GENERAL */
+
+
+/* HEADER  */
+.top-header{
+  background-color: black;
+}
+
+.top-header svg{
+  width: 70px;
+  padding: 10px;
+}
