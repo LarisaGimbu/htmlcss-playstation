@@ -13,19 +13,21 @@
   padding: 10px;
 }
 
+.bottom-header{
+  background-color: white;
+}
 .logo svg{
   padding-left: 10px;
 }
-
 nav ul{
   list-style: none;
   margin-bottom: 0;
 }
-
 nav ul li, .bottom-header span{
   display: inline-block;
   line-height: 50px;
   padding-right: 25px; 
+  font-size: 14px;
 }
 
 nav ul li::after, .bottom-header span::after{
@@ -40,3 +42,15 @@ nav ul li::after, .bottom-header span::after{
 .bottom-header i{
   padding: 10px 20px;
 }
+
+.hamburger i{
+  border: 1px solid #99999973;
+  color: #999999;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 5px 15px;
+  margin: 10px 10px 0 0;
+}
+
+/* JUMBOTRON */
+

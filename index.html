@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+  <!-- HEADER  -->
   <header class="fixed-top">
     <div class="row top-header">
       <div class="col text-end ">
@@ -32,7 +33,7 @@
             </g>
           </svg>
         </div>
-        <nav>
+        <nav class="d-none d-xl-block">
           <ul>
             <li>Giochi</li>
             <li>Hardware</li>
@@ -43,10 +44,13 @@
           </ul>
         </nav>
       </div>
-      <div class="col-5 text-end">
+      <div class="col-5 text-end d-none d-xl-block">
         <span href="#">MyPlayStation</span>
         <button type="button" class="btn btn-dark lg-btn">Accedi</button>
         <i class="fas fa-search"></i>
+      </div>
+      <div class="col text-end d-xl-none hamburger">
+        <i class="fas fa-bars"></i>
       </div>
     </div>
 
@@ -54,5 +58,10 @@
 
     
   </header>
+
+  <!-- JUMBOTRON  -->
+  <div class="jumbotron">
+    <div class="container"></div>
+  </div>
 </body>
 </html>
