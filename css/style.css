@@ -7,6 +7,28 @@
   background-color: #CD3D0F;
 }
 
+/* JUMBOTRON */
+.jumbotron{
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  margin-top: 80px;
+  height: 500px;
+  color: white;
+}
+.jumbo-container{
+  position: absolute;
+  bottom: 50px;
+}
+
+.first-jumbo{
+  background-image: url(../img/jumbo-bg.png);
+}
+
+.second-jumbo{
+  background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+}
+
 /* HEADER  */
 header{
   border-bottom: 1px solid #99999973;
@@ -57,20 +79,7 @@ nav ul li::after, .bottom-header span::after{
   margin: 10px 10px 0 0;
 }
 
-/* JUMBOTRON */
-.jumbotron{
-  position: relative;
-  background-image: url(../img/jumbo-bg.png);
-  background-size: cover;
-  background-position: center;
-  margin-top: 80px;
-  height: 500px;
-  color: white;
-}
-.jumbo-container{
-  position: absolute;
-  bottom: 50px;
-}
+
 
 .lg-box{
   background-color: red;
