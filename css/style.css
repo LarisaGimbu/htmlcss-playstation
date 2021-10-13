@@ -1,5 +1,8 @@
 /* GENERAL */
-
+.lg-btn{
+  border-radius: 50px;
+  padding-top: 3px;
+}
 
 /* HEADER  */
 .top-header{
@@ -10,9 +13,6 @@
   padding: 10px;
 }
 
-.bottom-header{
-  background-color: burlywood;
-}
 .logo svg{
   padding-left: 10px;
 }
@@ -22,17 +22,21 @@ nav ul{
   margin-bottom: 0;
 }
 
-nav ul li{
+nav ul li, .bottom-header span{
   display: inline-block;
   line-height: 50px;
   padding-right: 25px; 
 }
 
-nav ul li::after, .bottom-header a::after{
+nav ul li::after, .bottom-header span::after{
   font-family: "Font Awesome 5 Free"; 
   font-weight: 900;
   font-size: 10px;
   content: "\f078";
   color: #999999;
   padding-left: 5px;
+}
+
+.bottom-header i{
+  padding: 10px 20px;
 }
