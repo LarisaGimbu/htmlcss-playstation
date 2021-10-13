@@ -98,7 +98,20 @@ nav ul li::after, .bottom-header span::after{
 /* nuove-uscite  */
 .nuove-uscite{
   background-color: #1F1F1F;
-  height: 500px;
   color: white;
+}
+
+/* ps-plus */
+.ps-plus{
+  background-color: #BEBCBB;
+}
+
+.ps-plus-btn{
+  border: none;
+  background-color: rgba(255, 255, 255, 0.432);
+}
+
+.ps-plus img{
+  width: 100%;
 }
 
