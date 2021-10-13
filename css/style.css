@@ -13,11 +13,10 @@
   background-size: cover;
   background-position: center;
   margin-top: 80px;
-  height: 500px;
   color: white;
 }
 .jumbo-container{
-  padding-top: 230px;
+  padding: 230px 0 50px 0;
 }
 
 .first-jumbo{
@@ -96,5 +95,10 @@ nav ul li::after, .bottom-header span::after{
   border: 1px solid black;
 }
 
-
+/* nuove-uscite  */
+.nuove-uscite{
+  background-color: #1F1F1F;
+  height: 500px;
+  color: white;
+}
 
