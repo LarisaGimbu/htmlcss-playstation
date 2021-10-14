@@ -165,6 +165,9 @@ nav ul li::after, .bottom-header span::after{
 .ps-now img{
   width: 100%;
 }
+.ps-now .logo img{
+  width: 60%;
+}
 
 /* footer */
 footer{
