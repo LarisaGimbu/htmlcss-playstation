@@ -123,3 +123,16 @@ nav ul li::after, .bottom-header span::after{
 .ps-now img{
   width: 100%;
 }
+
+/* footer */
+footer{
+  background-color: #00439C;
+  color: white;
+}
+footer ul{
+  list-style: none;
+}
+footer ul li a{
+  text-decoration: none;
+  color: white;
+}
