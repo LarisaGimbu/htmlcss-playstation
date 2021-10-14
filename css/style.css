@@ -112,6 +112,13 @@ nav ul li::after, .bottom-header span::after{
   padding: 2px;
   border-radius: 15px;
 }
+.play-row .lg-box:hover{
+  margin-top: -20px;
+  cursor: pointer;
+}
+.play-row .lg-box:hover img{
+  box-shadow: 2px 25px 10px rgba(0, 0, 0, 0.301);
+}
 
 /* PS5 */
 .ps5-bottom img{
