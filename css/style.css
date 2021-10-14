@@ -13,7 +13,6 @@
 }
 .main-text{
   color: #727272;
-  font-size: 22px;
 }
 h2{
   font-size: 40px;
@@ -108,6 +107,11 @@ nav ul li::after, .bottom-header span::after{
   width: 100%;
   border-radius: 15px;
 }
+.play-row .active{
+  border: 2px solid #0072CE;
+  padding: 2px;
+  border-radius: 15px;
+}
 
 /* PS5 */
 .ps5-bottom img{
@@ -128,7 +132,15 @@ nav ul li::after, .bottom-header span::after{
 .active-console img{
   opacity: unset;
 }
-
+.accessories .lg-box:hover{
+  cursor: pointer;
+}
+.accessories .lg-box:hover img{
+  opacity: unset;
+}
+.accessories .lg-box:hover p{
+  color: black;
+}
 
 
 /* nuove-uscite  */
