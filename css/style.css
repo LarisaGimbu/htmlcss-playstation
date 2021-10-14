@@ -15,15 +15,19 @@
   color: #727272;
   font-size: 22px;
 }
+h2{
+  font-size: 40px;
+}
+.lg-box img{
+  width: 100%;
+}
 .lg-p10{
   padding: 10px 0;
 }
 .lg-p-50{
   padding: 50px 0;
 }
-h2{
-  font-size: 40px;
-}
+
 
 /* JUMBOTRON */
 .jumbotron{
