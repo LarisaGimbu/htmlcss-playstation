@@ -173,7 +173,15 @@ nav ul li::after, .bottom-header span::after{
 footer{
   background-color: #00439C;
   color: white;
+  font-size: 12px;
 }
+footer .lg-box img{
+  width: 80px;
+}
+footer .lg-box img.globo{
+  width: 10px;
+}
+
 footer ul{
   list-style: none;
 }
