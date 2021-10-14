@@ -115,3 +115,11 @@ nav ul li::after, .bottom-header span::after{
   width: 100%;
 }
 
+/* ps-now  */
+.ps-now{
+  background-color: #161C3B;
+  color: white;
+}
+.ps-now img{
+  width: 100%;
+}
