@@ -103,17 +103,18 @@ nav ul li::after, .bottom-header span::after{
 }
 
 /* play-row */
+.play-row .lg-box img{
+  padding: 2px;
+}
 .play-row img{
   width: 100%;
   border-radius: 15px;
 }
 .play-row .active{
   border: 2px solid #0072CE;
-  padding: 2px;
   border-radius: 15px;
 }
 .play-row .lg-box:hover{
-  margin-top: -20px;
   cursor: pointer;
 }
 .play-row .lg-box:hover img{
