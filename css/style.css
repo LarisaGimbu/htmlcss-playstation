@@ -116,6 +116,7 @@ nav ul li::after, .bottom-header span::after{
 }
 .play-row .lg-box:hover{
   cursor: pointer;
+  padding: 25px 0 75px 0;
 }
 .play-row .lg-box:hover img{
   box-shadow: 2px 25px 10px rgba(0, 0, 0, 0.301);
