@@ -64,9 +64,6 @@ h2{
   padding: 10px;
 }
 
-.bottom-header{
-  background-color: white;
-}
 .logo svg{
   padding-left: 10px;
 }
@@ -83,6 +80,7 @@ nav ul li{
 }
 .bottom-header a{
   line-height: 50px;
+  padding: 0;
   font-size: 14px;
   text-decoration: none;
   color: black;
@@ -102,6 +100,48 @@ nav ul li{
   margin: 10px 10px 0 0;
 }
 
+.nav-hover{
+  width: 100vw;
+  height: 200px;
+  background-color: white;
+}
+.nh-1{
+  left: -82px !important;
+}
+.nh-2{
+  left: -159px !important;
+}
+.nh-3{
+  left: -257px !important;
+}
+.nh-4{
+  left: -335px !important;
+}
+.nh-5{
+  left: -413px !important;
+}
+.nh-6{
+  left: -519px !important;
+}
+.nh-7{
+  left: -1001px !important;
+}
+.nav-hover .row.top-nav-h{
+  border-bottom: 2px solid #9999995d;
+}
+.nav-hover .bottom-nav-h .fa-circle{
+  padding: 0 10px;
+  font-size: 4px;
+  line-height: 10px;
+}
+
+.nav-hover .lg-box:hover{
+  box-shadow: 2px 2px 4px #9999995d;
+  cursor: pointer;
+}
+.bottom-header .navbar nav a:active .nav-hover{
+  display: block;
+}
 
 /* play-row */
 .play-row .lg-box img, .new-play-row .lg-box img{
