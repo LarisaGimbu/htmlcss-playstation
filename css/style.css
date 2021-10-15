@@ -3,6 +3,7 @@
   border-radius: 50px;
   padding-top: 3px;
 }
+
 .lg-btn-orange{
   background-color: #CD3D0F;
 }
@@ -103,13 +104,11 @@ nav ul li::after, .bottom-header span::after{
 }
 
 /* play-row */
-.play-row .lg-box img{
+.play-row .lg-box img, .new-play-row .lg-box img{
   padding: 2px;
-}
-.play-row img{
-  width: 100%;
   border-radius: 15px;
 }
+
 .play-row .active{
   border: 2px solid #0072CE;
   border-radius: 15px;
@@ -123,10 +122,6 @@ nav ul li::after, .bottom-header span::after{
 }
 
 /* PS5 */
-.ps5-bottom img{
-  width: 100%;
-}
-
 .accessories .lg-box{
   width: 100%;
   height: 155px;
@@ -158,10 +153,6 @@ nav ul li::after, .bottom-header span::after{
   color: white;
 }
 
-/* ps-4  */
-.ps-4 img{
-  width: 100%;
-}
 
 /* ps-plus */
 .ps-plus{
@@ -171,9 +162,6 @@ nav ul li::after, .bottom-header span::after{
   border: none;
   background-color: rgba(255, 255, 255, 0.432);
 }
-.ps-plus img{
-  width: 100%;
-}
 .ps-plus .logo img{
   width: 60%;
 }
@@ -182,9 +170,6 @@ nav ul li::after, .bottom-header span::after{
 .ps-now{
   background-color: #161C3B;
   color: white;
-}
-.ps-now img{
-  width: 100%;
 }
 .ps-now .logo img{
   width: 60%;
