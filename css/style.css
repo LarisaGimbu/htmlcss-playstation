@@ -238,6 +238,14 @@ nav ul li{
   width: 60%;
 }
 
+/* sconti  */
+.sconti .lg-box img{
+  border-radius: 15px;
+}
+.sconti .lg-box:hover{
+  transform: scale(1.05);
+}
+
 /* ps-now  */
 .ps-now{
   background-color: #161C3B;
@@ -245,6 +253,15 @@ nav ul li{
 }
 .ps-now .logo img{
   width: 60%;
+}
+
+/* ps-social */
+.social .lg-box img{
+  border-radius: 15px;
+  box-shadow: 2px 2px 6px grey;
+}
+.social .lg-box:hover{
+  transform: scale(1.05);
 }
 
 /* footer */
@@ -263,7 +280,7 @@ footer .lg-box img.globo{
 footer ul{
   list-style: none;
 }
-footer ul li a{
+footer a{
   text-decoration: none;
   color: white;
 }
