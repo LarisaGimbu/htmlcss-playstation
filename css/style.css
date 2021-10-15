@@ -5,8 +5,6 @@
 }
 .lg-btn{
   padding: 5px 12px;
-  /* padding: 2px; */
-  /* margin: 2px; */
 }
 .border-btn{
   border: 2px solid #212529;
@@ -215,6 +213,9 @@ nav ul li{
 .nuove-uscite{
   background-color: #1F1F1F;
   color: white;
+}
+.nuove-uscite .new-play-row .lg-box:hover{
+  transform: scale(1.1);
 }
 
 
